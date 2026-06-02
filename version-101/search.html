@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>影片搜索-亚洲高清影片</title>
+    <meta name="description" content="亚洲高清影片搜索页，支持按片名、类型、地区、年份和标签检索影片详情。">
+    <meta name="keywords" content="亚洲高清影片,亚洲影片,高清影片,影片片库,视频在线观看,热门影片,精选影片,影片搜索,高清搜索">
+    <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="nav-shell">
+        <a class="brand" href="index.html" aria-label="亚洲高清影片">
+            <span class="brand-mark">▶</span>
+            <span>亚洲高清影片</span>
+        </a>
+        <nav class="desktop-nav">
+            <a class="nav-link " href="index.html">首页</a><a class="nav-link " href="categories.html">分类</a><a class="nav-link " href="ranking.html">热播榜</a><a class="nav-link active" href="search.html">搜索</a>
+        </nav>
+        <form class="nav-search" action="search.html" method="get">
+            <input type="search" name="q" placeholder="搜索影片" autocomplete="off">
+            <button type="submit">搜索</button>
+        </form>
+        <button class="menu-toggle" type="button" aria-label="打开菜单">☰</button>
+    </div>
+    <div class="mobile-panel">
+        <form class="mobile-search" action="search.html" method="get">
+            <input type="search" name="q" placeholder="搜索影片" autocomplete="off">
+            <button type="submit">搜索</button>
+        </form>
+        <nav class="mobile-nav">
+            <a class="nav-link " href="index.html">首页</a><a class="nav-link " href="categories.html">分类</a><a class="nav-link " href="ranking.html">热播榜</a><a class="nav-link active" href="search.html">搜索</a>
+        </nav>
+    </div>
+</header>
+<main class="page-main">
+    <section class="page-hero compact-hero">
+        <span class="section-kicker">搜索</span>
+        <h1>搜索亚洲高清影片</h1>
+        <p>输入片名、地区、年份、类型或标签，快速筛选影片并进入详情页。</p>
+    </section>
+    <section class="search-panel">
+        <form id="search-form" action="search.html" method="get">
+            <input id="search-input" type="search" name="q" placeholder="输入关键词" autocomplete="off">
+            <button type="submit">搜索</button>
+        </form>
+    </section>
+    <section class="card-grid" id="search-results"></section>
+</main>
+<footer class="site-footer">
+    <div class="footer-grid">
+        <div>
+            <div class="footer-logo"><span class="brand-mark">▶</span>亚洲高清影片</div>
+            <p>亚洲高清影片栏目汇集亚洲地区多类型影片内容，包含国产、日韩及其他地区分类。</p>
+        </div>
+        <div>
+            <h3>频道入口</h3>
+            <a href="categories.html">分类总览</a>
+            <a href="ranking.html">热播榜单</a>
+            <a href="search.html">影片搜索</a>
+        </div>
+        <div>
+            <h3>精选分类</h3>
+            <a href="category-asian-featured.html">亚洲精选</a>
+            <a href="category-hd-hot.html">高清热播</a>
+            <a href="category-cinema-channel.html">电影频道</a>
+        </div>
+        <div>
+            <h3>观看体验</h3>
+            <a href="index.html#featured">精选推荐</a>
+            <a href="index.html#latest">新近更新</a>
+            <a href="index.html#rank-entry">人气入口</a>
+        </div>
+    </div>
+    <div class="footer-bottom">© 2026 亚洲高清影片. 保留所有权利.</div>
+</footer>
+<script src="assets/search-data.js"></script>
+<script src="assets/site.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
